@@ -1,12 +1,3 @@
-/*
-
-1 
-2 3 
-4   5 
-6 7 8 9 
-
-
-*/
 
 #include<iostream>
 using namespace std;
@@ -19,12 +10,16 @@ int main(){
 
     for(int i=0;i<n;i++){
        
-        for(int j=0;j<=i;j++)
+     for(int k=0;k<n-i;k++)
+     cout<<"  ";
+
+        for(int j=0;j<=2*i;j++)
         {
-            if(j==0 || j==i || i==n-1)
+            if(j==0 || j==2*i || i==n-1)
             cout<<count++<<" ";
             else 
                cout<<"  ";
+
         }
 
         cout<<"\n";
