@@ -22,4 +22,6 @@ int main(){
         return 0;
      }
     }
+      cout << "All are even";
+    return 0;
 }
